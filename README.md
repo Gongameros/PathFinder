@@ -4,7 +4,7 @@
 All you need to install the app is to clone the repository.
 It already has pre-compiled builds for Windows and Linux.
 Windows has two builds: the main one is g++, and the other is Visual Studio.
-If you are a Windows user, I suggest you use the Visual Studio build. It is much faster than the other one.
+***If you are a Windows user, I suggest you use the Visual Studio build. It is much faster than the other one.***
 
 ## About
 This program searches for a specified file in a given directory and its subdirectories using multiple threads.
