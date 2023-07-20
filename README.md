@@ -8,7 +8,7 @@ If you are a Windows user, I suggest you use the Visual Studio build. It is much
 
 ## About
 This program searches for a specified file in a given directory and its subdirectories using multiple threads.
-The search process is parallelized to improve efficiency, with a limit of MAX_THREADS concurrent search threads.
+The search process is parallelized to improve efficiency, with a limit of 8 concurrent search threads.
 It employs atomics and mutexes to ensure thread safety and synchronized access to shared resources.
 The findPathToFile function recursively explores the directory tree, spawning threads to search in subdirectories.
 If the file is found, the program prints its path to the console and terminates all threads.
